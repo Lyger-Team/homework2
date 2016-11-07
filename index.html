@@ -7,7 +7,7 @@
     <title>Homework-2</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
-
+<div class="wrapper">
 <header>
 	<h1>Урок "Формы": теги и их атрибуты.</h1>
 	<h2>Расскажите немного о себе...</h2>
@@ -28,7 +28,7 @@
 <br>
 <fieldset id="detailed_info">
 		<legend>Подробнее о себе</legend>
-		<span class="detailed">
+		<span class="text10">
 		<input type="radio" name="gender2" value="male2" checked> Молодой человек<br>
 		<input type="radio" name="gender2" value="female2"> Девушка<br>
 		<input type="text" name="bdate"> Дата рождения<br>
@@ -70,24 +70,25 @@
 	    <option selected value="second_position">Вторая позиция</option>
 	    <option value="third_position">Третья позиция</option>
     </select>
-	     
+    	     
 </fieldset>
  <br>
 <fieldset id="final_info">
 	<legend>И в заключении</legend>
 	  <input type="text" name="readonly" value="Это поле было введено до вас" size="25" disabled><br>
-	<br>
-	<b>Email:</b><br>
+	
+	<p><span class="bold">Email:</span><br>
 	<input type="email" name="email" size="25" autocomplete="off">
 	 <br><br>
 	 
-	<span class="final1"> Хотите подписаться на самую модную рассылку спама?</span><br>
+	<span class="bold"> Хотите подписаться на самую модную рассылку спама?</span><br>
 	 <em>Выберите категорию</em>
-    <br><br>
     
-   <input type="checkbox" name="spam1"> Оборудование<br>
+    
+   <p><input type="checkbox" name="spam1"> Оборудование<br>
    <input type="checkbox" name="spam2"> Как приготовить обеды<br>
    <input type="checkbox" name="spam3"> Заработай миллион за два дня!<br>
+   </p>
    
    <h4>На сколько сложная задача:</h4>
       <input type="radio" name="no"> Совсем нет<br>
@@ -95,12 +96,13 @@
       <input type="radio" name="yes"> Еле справились<br>
       
 </fieldset>
-<br>
 
-      <input type="submit" value="Отправить" id="submit">
 
+      <p><input type="submit" value="Отправить" id="submit"></p>
+  
     </form>
   </body>
+</div>
 </html>
 
 

@@ -1,8 +1,25 @@
-.detailed {
-	font-size: 10pt;
+body {
+padding: 0;
+margin: 0;
+background: #e5e6e6;
 }
 
-.final1 {
+.wrapper {    
+background: white;
+width: 660px;
+margin: 0 auto;
+border-left: 3px solid #e3e3e3;
+border-right: 3px solid #e3e3e3;
+border-bottom: 3px solid #e3e3e3;
+border-top: 3px solid #e3e3e3;
+padding: 30px 80px;
+}
+
+.text10 {
+	font-size: 9pt;
+}
+
+.bold {
     font-weight: bold;	
 }
 
