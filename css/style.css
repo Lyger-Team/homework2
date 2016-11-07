@@ -1,0 +1,16 @@
+.detailed {
+	font-size: 10pt;
+}
+
+.final1 {
+    font-weight: bold;	
+}
+
+#submit {
+ border-radius: 5px;
+    border: 0;
+    width: 100px;
+    height:30px;
+    font-family: Tahoma;
+    background: #f4f4f4;
+}
