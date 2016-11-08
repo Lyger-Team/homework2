@@ -15,7 +15,6 @@
 <p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
 </header>
 
-<body>
 <form action="anket.php" method="post">
 <fieldset id="personal_info">
 		<legend>Коротко о себе</legend>
@@ -39,26 +38,26 @@
 		
 	<h4>Что вы обычно делаете на выходных?</h4>
 	
-	   <input type="checkbox" name="sleep"> Сплю<br>
-	   <input type="checkbox" name="walking"> Гуляю с друзьями<br>
-	   <input type="checkbox" name="fishing"> Хожу на рыбалку<br>
-	   <input type="checkbox" name="gaming"> Играю в игры<br>
+	   <input type="checkbox" name="checkbox" value="sleep" > Сплю<br>
+	   <input type="checkbox" name="checkbox" value="walking"> Гуляю с друзьями<br>
+	   <input type="checkbox" name="checkbox" value="fishing"> Хожу на рыбалку<br>
+	   <input type="checkbox" name="checkbox" value="gaming"> Играю в игры<br>
 	
 	<h4>Рассказать о формах в киге, посвященной HTML:</h4>
 	
 	<select name="books">
-		<option value="book"> Три товарища</option>
-		<option value="book"> Порт Артур</option>
-		<option value="book"> Белая гвардия</option>
-		<option value="book"> Улитка на склоне</option>
+		<option value="book1"> Три товарища</option>
+		<option value="book2"> Порт Артур</option>
+		<option value="book3"> Белая гвардия</option>
+		<option value="book4"> Улитка на склоне</option>
 	</select>
 
     <h4>Сколько книг вы прочитали за свою жизнь:</h4>
     
-        <input type="radio" name="10"> 0-10<br>
-        <input type="radio" name="20"> 11-20<br>
-        <input type="radio" name="50"> 21-50<br>
-        <input type="radio" name="50+"> 50+<br>
+        <input type="radio" name="radio" value="10"> 0-10<br>
+        <input type="radio" name="radio" value="20"> 11-20<br>
+        <input type="radio" name="radio" value="50"> 21-50<br>
+        <input type="radio" name="radio" value="50+"> 50+<br>
       <br>
     <b>Ваши комментарии:</b><br>
     
@@ -85,15 +84,15 @@
 	 <em>Выберите категорию</em>
     
     
-   <p><input type="checkbox" name="spam1"> Оборудование<br>
-   <input type="checkbox" name="spam2"> Как приготовить обеды<br>
-   <input type="checkbox" name="spam3"> Заработай миллион за два дня!<br>
+   <p><input type="checkbox" name="spam" value="spam1"> Оборудование<br>
+   <input type="checkbox" name="spam" value="spam2"> Как приготовить обеды<br>
+   <input type="checkbox" name="spam" value="spam3"> Заработай миллион за два дня!<br>
    </p>
    
    <h4>На сколько сложная задача:</h4>
-      <input type="radio" name="no"> Совсем нет<br>
-      <input type="radio" name="maybe"> Так себе<br>
-      <input type="radio" name="yes"> Еле справились<br>
+      <input type="radio" name="profit" value="no"> Совсем нет<br>
+      <input type="radio" name="profit" value="maybe"> Так себе<br>
+      <input type="radio" name="profit" value="yes"> Еле справились<br>
       
 </fieldset>
 
@@ -101,7 +100,6 @@
       <p><input type="submit" value="Отправить" id="submit"></p>
   
     </form>
-  </body>
 </div>
 </html>
 
