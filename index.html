@@ -24,7 +24,7 @@
         <input type="radio" name="gender" value="female"> женский<br>
   Возраст: <input type="text" name="age" size="7"> лет
 </fieldset>
-<br>
+
 <fieldset id="detailed_info">
 		<legend>Подробнее о себе</legend>
 		<span class="text10">
@@ -58,30 +58,28 @@
         <input type="radio" name="radio" value="20"> 11-20<br>
         <input type="radio" name="radio" value="50"> 21-50<br>
         <input type="radio" name="radio" value="50+"> 50+<br>
-      <br>
-    <b>Ваши комментарии:</b><br>
+      <p class = "br"></p>
+      <p class="bold_br"> Ваши комментарии:</p>
     
-    <textarea name="comments" rows="10" cols="50">
+    <textarea id="comments">
       </textarea>
-    <br>
-    <select size="3" multiple name="position">
+        <p class="br"><select size="3" multiple name="position"></p>
 	    <option value="first_position">Первая позиция</option>
 	    <option selected value="second_position">Вторая позиция</option>
 	    <option value="third_position">Третья позиция</option>
     </select>
     	     
 </fieldset>
- <br>
+<span  class="br"></span>
 <fieldset id="final_info">
 	<legend>И в заключении</legend>
-	  <input type="text" name="readonly" value="Это поле было введено до вас" size="30" disabled><br>
-	
-	<p><span class="bold">Email:</span><br>
+	  <input type="text" name="readonly" value="Это поле было введено до вас" size="30" disabled>
+	<span class="br"></span>
+	<span  class="bold_br"> Email:</span><span class="br"</span>
 	<input type="email" name="email" size="25" autocomplete="off">
-	 <br><br>
-	 
-	<span class="bold"> Хотите подписаться на самую модную рассылку спама?</span><br>
-	 <em>Выберите категорию</em>
+	<span class="br"></span>	 
+	<span class="bold_br"> Хотите подписаться на самую модную рассылку спама?</span>
+	<p class="italic"> Выберите категорию</p>
     
     
    <p><input type="checkbox" name="spam" value="spam1"> Оборудование<br>
