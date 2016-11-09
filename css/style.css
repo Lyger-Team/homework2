@@ -4,7 +4,7 @@ margin: 0;
 background: #e5e6e6;
 }
 
-.wrapper {    
+.wrapper {
 background: white;
 width: 680px;
 margin: 0 auto;
@@ -20,7 +20,7 @@ padding: 30px 80px;
 }
 
 .bold {
-    font-weight: bold;	
+    font-weight: bold;
 }
 
 #submit {
